@@ -1,0 +1,219 @@
+/* _General_ */
+
+
+
+body{
+    background-image: url("../images/bg.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header,
+footer{
+    background-color: #fff;
+    height: 100px;
+}
+
+
+header{
+    border-bottom: 4px solid gray;
+    position: relative;
+}
+
+main{
+    margin: 80px 0;
+}
+
+
+footer{
+    clear: both;
+    background-color: #777;
+    border-top: 4px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* index.html */
+
+.container{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.heading{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 30px;
+    height: 100px;
+    background-color: #4aaaa5;
+    width: 300px;    
+    text-align: center;
+    float: left;
+}
+
+header nav{
+    float: right;
+    height: 100px;
+    text-transform: capitalize;
+    margin-top: 35px;
+}
+
+header li{
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header a:hover{
+    color: brown;
+}
+
+
+.mainContent,
+.socialLinks{
+    padding: 30px;
+}
+
+.mainContent{
+    width: 70%;
+    color: #ccc;
+    background-color: #fff;
+    float: left;
+}
+
+.mainContent .heading,
+.socialLinks .heading{
+    font-size: 26px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-bottom: 40px;   
+    border-bottom: 4px solid #ccc;
+}
+
+.socialLinks .heading{
+    text-align: center;
+}
+
+.mainContent .profileImage{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 2px #000;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+}
+
+
+.socialLinks{
+    width: 25%;
+    height: 280px;
+    background-color: #fff;
+    float: right;
+}
+
+.socialLinks img{
+    width: 70px;
+    height: 70px;
+}
+
+.socialLinks li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.about-me-text{
+    margin-top: 50px;
+    line-height: 1.5;
+    color: rgba(0,0,0,.8);
+}
+
+.about-me-text a{
+    color: brown;
+}
+
+/* portfolio.html */
+
+
+.cardBody{
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin: 15px;
+    border: 2px solid brown;
+    overflow: hidden;
+    box-shadow: 0 0 5px #000;
+    position: relative;
+}
+.cardImage{
+    max-width: 250px;
+    max-height: 250px;   
+}
+
+.cardDescription{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buttonMore{
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
+
+.buttonMore button{
+    width: 50%;
+    background-image: linear-gradient(to right, #000, red);
+    padding: 10px;
+    color: white;
+    border: 2px double red;
+    border-radius: 5px;
+}
+.buttonMore button:hover{
+    background-image: linear-gradient(to left, #000, red);
+}
+
+/*contact.html*/
+
+.formLabel,
+.formInput{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.formInput{
+    width: 100%;
+    padding: 10px;
+}
+
+.formButton{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+
+
+

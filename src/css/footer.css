@@ -1,0 +1,11 @@
+footer{
+    background-color: var(--ft-bg);
+    border-top: 3px solid var(--green);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-style: 20px;
+}
